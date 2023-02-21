@@ -1,0 +1,71 @@
+body{
+    background-image:url(FondSite.png) ;
+}
+#menu_ico{
+    width:50px;
+    height: auto;
+}
+ul{
+    background-color: aquamarine;
+    list-style: none;
+    position: absolute;
+    left: 0px;
+    padding-left: 0px;
+}
+li{
+    margin: 0px;
+    padding: 20px;
+    border: 2px solid black;
+    width: 110px;
+    font-size: 20px;
+}
+#liste_page{
+    background-color: aqua;
+    display: none;
+}
+#fun{
+    position: absolute;
+    right: 5%;
+    top: 5%;
+}
+
+#img_down{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#logo{
+    position: absolute;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    left: 0%;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(40, 39, 38);
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+
+}
+h1{
+    padding: 0px;
+    margin: 10px;
+}
+.insta{
+    width: 50px;
+    height: auto;
+}
