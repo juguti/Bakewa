@@ -15,10 +15,10 @@ function hide(){
         show = false
 }}
 function change() {
-    image.setAttribute("src", "BoutonDownload2.png");
+    image.setAttribute("src", "asset/BoutonDownload2.png");
 }
 function change2() {
-    image.setAttribute("src", "BoutonDownload.png");
+    image.setAttribute("src", "asset/BoutonDownload.png");
 } 
 function fun_gif(){
     index++
